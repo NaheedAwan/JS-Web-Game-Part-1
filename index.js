@@ -57,13 +57,14 @@ sword.addEventListener('click', function(){
 
 // assets/shield.png (165px from the left, 185px from the bottom)
 // assets/staff.png (600px from the left, 100px from the bottom)
+// adding shield
 let shield = document.createElement('img')
 shield.src = 'assets/sheild.png'
 shield.style.position = "fixed"
 shield.style.left ='165px'
 shield.style.bottom = '185px'
 document.body.append(shield)
-
+// adding staff
 let staff = document.createElement('img')
 staff.src = 'assets/staff.png'
 staff.style.position = 'fixed'
@@ -72,22 +73,24 @@ staff.style.bottom = '100px'
 document.body.append(staff)
 // other images
 // const images = [
-//     './assets/tree.png (200px from the left, 300px from the bottom)',
-//     './assets/pillar.png (350px from the left, 100px from the bottom)',
-//     './assets/crate.png (150px from the left, 200px from the bottom)',
-//     './assets/well.png (500px from the left, 425px from the bottom)',
+//     './assets/tree.png',
+//     './assets/pillar.png' ,
+//     './assets/crate.png' ,
+//     './assets/well.png'
 // ]
+// // (200px from the left, 300px from the bottom)',
+// // ,(350px from the left, 100px from the bottom)'
+// // (150px from the left, 200px from the bottom)
+// // '500px from the left, 425px from the bottom)'
 
-// // assets/tree.png (200px from the left, 300px from the bottom)
-// // assets/pillar.png (350px from the left, 100px from the bottom)
-// // assets/crate.png (150px from the left, 200px from the bottom)
-// // assets/well.png (500px from the left, 425px from the bottom)
+// function newImage (){
+// //     images = document.createElement('img')
+//        for (let i=0; i < images.length; i++){
+//            img = document.createElement ('img')
+//            img.src = images[i]
+//            document.body.append(images[i])
 
-// function newImage(){
-//     if (selectedIndex < images.length - 1) {
-//     selectedIndex++
-// } else {
-//     selectedIndex = 0
-// }
-// }
-// newImage()
+//        }
+
+//  }
+//  newImage()
